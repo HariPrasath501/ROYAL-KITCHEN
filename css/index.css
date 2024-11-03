@@ -1,0 +1,219 @@
+body,.secondrowimg,footer,nav{
+    background-color:rgb(231, 222, 222);
+    margin: 0;
+    padding: 0;
+}
+.landing{
+    background-image: url(../media/copyimg.jpg);
+    background-size: cover;
+    background-position: center;
+    height:300px;
+    width:fit-content;
+}
+header nav{
+    display: flex;
+}
+#logo{
+    flex: 1;
+}
+
+
+nav a{
+    text-decoration: none;
+    flex: 1;
+    display: flex;
+}
+.fristsec {
+    padding: 1em;
+}
+
+.fristsec h1,h2{
+    color: rgb(219, 243, 5);
+    font-size:xx-large;
+}
+
+.fristsec h1{
+    position: relative;
+    bottom:10px;
+}
+
+.tag1{
+    position: relative;
+    bottom: 20px;
+    font-size:medium;
+    color:red;
+}
+
+button{
+    background-color: red;
+    color: white;
+    width:100px;
+    border-radius: 10px;
+    padding:.15em;
+    position: relative;
+    bottom:30px;
+    border-color: red;
+}
+.imgs{
+    background-color:white;
+    border-radius: 10px;
+    width: 120px;
+    height:160px;
+    padding: 1em;
+    margin: 2em;
+}
+
+.imgs img{
+    width: 100px;
+    height: 80px;
+    margin-top:20px;
+    margin-left:10px;
+    margin-bottom:100px;
+    border-radius: 60%;
+
+}
+.imgs img:hover{
+    transform: scale(1.2);
+}
+
+.imgs2 img{
+    width: 100px;
+    height: 80px;
+    margin-top: 0px;
+    margin-left:10px;
+    margin-bottom:25px;
+    border-radius: 50%;
+}
+
+.imgs2 img:hover{
+    transform: scale(1.2);
+}
+
+.h41{
+    position: relative;
+    left: 10px;
+    bottom: 125px;
+}
+
+.h42{
+    position: relative;
+    left: 10px;
+    bottom: 125px;
+}
+
+.h43{
+    position: relative;
+    left: 30px;
+    bottom: 125px;
+}
+.h44{
+    position: relative;
+    left: 20px;
+    bottom: 125px;
+}
+.imgs p{
+    position: relative;
+    left:30px;
+    color:white;
+    border-radius: 20px;
+    background-color:red;
+    width: fit-content;
+    padding:5px;
+    font-size:20px;
+    bottom:143px;
+}
+
+
+.imgs .pa4{
+    bottom:125px;
+}
+
+.imgs p:hover{
+    transform: scale(1.2);
+}
+
+.imgs2 p:hover{
+    transform: scale(1.2);
+}
+
+.fristrowimg{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+}
+.fristsec h1{
+    font-family:monospace;
+}
+.imgs2 p{
+    position: relative;
+    left:30px;
+    color:black;
+    border-radius: 20px;
+    background-color:white;
+    width: fit-content;
+    padding:5px;
+    font-size:20px;
+    bottom:70px;
+}
+
+.imgs2{
+    background-color: red;
+    border-radius: 10px;
+    width: 120px;
+    height:140px;
+    padding: 1em;
+    margin: 2em;
+}
+
+.sh1{
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+}
+
+.sh2{
+    position: relative;
+    bottom: 50px;
+    left:20px;
+}
+
+.imgs2 .sp1{
+    position: relative;
+    bottom:50px;
+    background-color: white;
+    color: black;
+}
+
+.sh3{
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+}
+
+.sp3{
+    position: relative;
+    background-color: white;
+    color: black;
+}
+
+.secondrowimg{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+}
+
+.imgs3 img{
+    background-color:black;
+    width:350px;
+    height:280px;
+    padding:.25em;
+    border-radius:60%;
+}
+
+footer p,a{
+    background-color: rgb(51, 48, 48);
+    text-align: center;
+    color: white;
+} 
+
+
+
